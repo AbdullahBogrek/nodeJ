@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.searchbar {
+    border: 1px solid #3b3b3b;
+    border-radius: 50px;
+}
+
+.searchbar::placeholder{
+    color: #747474;
+}
+
+.searchbar:hover {
+    border: 1px solid #333333;
+}
+
+.textarea {
+    border: 1px solid #3b3b3b;
+}
+
+.textarea::placeholder{
+    color: #747474;
+}
+
+.textarea:hover {
+    border: 1px solid #333333;
+}
+
+.completed {
+    background-color: #3b3b3b;
+}
